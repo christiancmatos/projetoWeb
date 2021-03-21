@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: black;
+  color: gray;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  border-bottom: 3px solid gray;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.div-photo {  
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 31px 40px 31px 40px;
+}
+
+.div-photo:hover {
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-top: 3px solid gray;
+}
+
+footer a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(219, 209, 209, 0.5)
+  
+}
+
+.album-informations {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.album-name {
+  margin-top: 20px;
+}
+
+.album-name,
+.album-year {
+  text-align: center;
+  color: gray;
+} 
+
+.musics-list {
+  color: gray;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.album-musics {
+  margin: 20px;
+  height: 230px;
+}
+
+.album-musics h5 {
+  color: goldenrod;
+}
+
+.close-modal {
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  height: 30px;
+  width: 100px;
+  background-color: gray;
+  color: black;
+  font-weight:bolder;
+  margin-top: 450px;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background-color: goldenrod;
+  opacity: 0.5;
+  color: black;
+}
+
+.div-link {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.link-album {
+  color: gray;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.link-album:hover {
+  color: goldenrod;
+}

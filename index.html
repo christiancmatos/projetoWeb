@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lamb of God</title>
+</head>
+<body>
+
+    <header>
+        <h1>Lamb Of God Albums</h1>
+    </header>
+
+    <section>
+        <div id="0" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="1" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div> 
+        <div id="2" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="3" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="4" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="5" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="6" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+        <div id="7" onclick="fillModal(this.id)" class="div-photo"><a href="#"><img src=""></a></div>
+    </section>
+
+    <footer>
+        <h5>Criado por <a href="https://www.linkedin.com/in/christian-matos-974890153/">Christian Matos</a></h5>
+    </footer>
+
+    <div class="modal">
+        <div class="album-informations">
+            <h1 class="album-name">Nome do Álbum</h1>
+            <h3 class="album-year">Ano do Álbum</h3>
+            <h3 class="musics-list">Músicas</h3>
+            <div class="album-musics">
+                
+            </div>
+            <div class="div-link">
+                <a class="link-album" href="" target="_blank">Clique aqui e ouça o álbum</a>
+            </div>
+            <div class="close-modal" onclick="closeModal()">Close</div>
+        </div>
+    </div>
+
+    <script src="fakeBd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
